@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: hsl(75, 94%, 57%);
+
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkGrey: hsl(0, 0%, 12%);
+    --offBlack: hsl(0, 0%, 8%);
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--offBlack);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+a{
+    color: var(--white);
+}
+
+.card{
+    background-color: var(--darkGrey);
+    width: 350px;
+    padding: 2rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+.profile h1{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.profile .address{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.profile .description{
+    margin: 2rem auto;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.social .social-buttons{
+    width: 100%;
+    padding: 15px;
+    background-color: var(--grey);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social .social-buttons:hover{
+    background-color: var(--primary-color);
+    color: var(--darkGrey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
